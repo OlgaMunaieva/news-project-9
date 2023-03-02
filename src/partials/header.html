@@ -1,7 +1,7 @@
 <header class="header">
-  <div class="header__container">
-    <div class="header__body">
-      <a href="" class="header__logo">News</a>
+   <div class="header__container">
+    <div class="header__body"> 
+       <a href="" class="header__logo">News</a>
       <ul class="header__nav">
         <li class="header__item">
           <a href="#" class="header__link current">Home</a>
@@ -29,8 +29,8 @@
           <svg id="icon-mob-menu" width="40px" height="40px">
             <use href="./images/symbol-defs.svg#icon-mob-menu"></use>
           </svg>
-        </button>
-        <span class="form-header__light">Light</span>
+        </button> 
+         <!-- <span class="form-header__light">Light</span>
         <svg
           id="icon-sun"
           class="form-header__icon-sun"
@@ -38,34 +38,47 @@
           height="21px"
         >
           <use href="./images/symbol-defs.svg#icon-sun"></use>
-        </svg>
-        <label class="form-header__checkbox checkbox-header">
+        </svg> -->
+        <!-- <label class="form-header__checkbox checkbox-header">
           <input type="checkbox" class="checkbox-header__input" />
           <span class="checkbox-header__switch-slider"></span>
-        </label>
-        <svg
+        </label> -->
+        <!-- <svg
           id="icon-moon"
           class="form-header__icon-moon"
           width="21px"
           height="21px"
         >
           <use href="./images/symbol-defs.svg#icon-moon"></use>
-        </svg>
-        <span class="form-header__dark">Dark</span>
+        </svg> -->
+        <!-- <span class="form-header__dark">Dark</span> -->
       </form>
+      <div class="toggle-switch">
+        <p class="lightBtn">Light</p>
+        <span>
+          <label class="switch">
+            <input id="theme-switch" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </span>
+        <p class="darkBtn">Dark</p>
+      </div>
+
+
     </div>
   </div>
+  <!-- Бургер меню -->
   <div class="mob-menu is-hidden" data-menu>
     <div class="header__container flex">
       <div class="mob-menu__body">
-        <div class="mob-menu__contant">
+        <!-- <div class="mob-menu__contant">
           <a href="" class="header__logo">News</a>
           <button class="mob-menu__close-btn" type="button" data-menu-close>
             <svg id="icon-close" width="24px" height="24px">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-        </div>
+        </div> -->
 
         <ul class="mob-menu__list">
           <li class="mob-menu__item">
@@ -78,10 +91,10 @@
             <a href="#" class="mob-menu__link"> Read </a>
           </li>
         </ul>
-      </div>
+      </div>  
 
-      <div class="mob-menu-switch">
-        <svg id="icon-sun" class="mob-icon-sun" width="21px" height="21px">
+      <!-- <div class="mob-menu-switch">
+         <svg id="icon-sun" class="mob-icon-sun" width="21px" height="21px">
           <use href="./images/symbol-defs.svg#icon-sun"></use>
         </svg>
         <label class="mob-menu__checkbox">
@@ -90,8 +103,9 @@
         </label>
         <svg id="icon-moon" class="mob-icon-moon" width="21px" height="21px">
           <use href="./images/symbol-defs.svg#icon-moon"></use>
-        </svg>
-      </div>
+        </svg> -->
+      <!-- </div>  --> 
+         
     </div>
   </div>
 </header>
