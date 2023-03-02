@@ -1,4 +1,4 @@
-// .nav-menu {
+// .menu-media {
 //   @media screen and (min-width: 768px) {
 //     display: none;
 //   }
@@ -10,17 +10,30 @@
 //   visibility: hidden;
 // }
 
+// .nav-menu {
+//       position: fixed;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: #fff;
+//     z-index: 1;
+//     // padding: 40px 48px;
+//      @media screen and (min-width: 768px) {
+//     display: none;
+//   }
+// }
+
 .mob-container {
   display: flex;
   padding-top: 24px;
   margin-bottom: 68px;
-  // position: fixed;
-  //   top: 0;
-  //   width: 100%;
-  //   height: 100%;
-  //   // background-color: var(--bgd-color);
-  //   z-index: 1;
-  //   // padding: 40px 48px;
+//   position: fixed;
+//     // top: 0;
+//     // width: 100%;
+//     // height: 100%;
+//     // // background-color: var(--bgd-color);
+//     // z-index: 1;
+//     // // padding: 40px 48px;
 }
 
 .mob-logo {
@@ -67,7 +80,7 @@
   display: flex;
   position: absolute;
   top: 28px;
-  right: 15px;
+  right: 30px;
   background-color: transparent;
   border: none;
   display: block;
