@@ -1,1 +1,0 @@
-{"mappings":"AAAA,MAAMA,EAAcC,SAASC,cAAc,wBAC3CC,QAAQC,IAAIJ","sources":["src/js/read.js"],"sourcesContent":["const readMoreRef = document.querySelector('item-news__info-link')\nconsole.log(readMoreRef);"],"names":["$103c6abfc3a0e310$var$readMoreRef","document","querySelector","console","log"],"version":3,"file":"read.fb6a9cb5.js.map"}
