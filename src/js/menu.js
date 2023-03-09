@@ -3,6 +3,13 @@ const headerIconSearch = document.querySelector('.form-header__icon-search');
 const headerInput = document.querySelector('.form-header__input');
 const currentPage = window.location.pathname;
 
+if (
+  !currentPage.includes('/index.html') ||
+  !currentPage.includes('/read.html') ||
+  !currentPage.includes('/favorite.html')
+) {
+  currentPage.includes('/index.html');
+}
 const homeLink = document.getElementById('home__link');
 const favoriteLink = document.getElementById('favorite__link');
 const readLink = document.getElementById('read__link');
