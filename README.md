@@ -4,8 +4,8 @@ Team Project: **News**
 
 Team Members List:
 
-Team Lead - **Olha Munaieva (OlgaMunaieva)\*\
-Scrum Master - **Svitlana Dyshkant (SvitlanaDy)\*
+Team Lead - \*Olha Munaieva (OlgaMunaieva)\*\
+Scrum Master - \*\*Svitlana Dyshkant (SvitlanaDy)\*
 
 Header, page navigation, search by word and by date, theme switcher - **Dmytro
 Dobrobatko (Dobryotec)\*\
