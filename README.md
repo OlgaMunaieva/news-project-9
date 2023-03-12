@@ -1,6 +1,6 @@
 **GoIT JavaScript Course**\
 Team: **luckyNine**\
-Team Project: **News**
+Team Project: **News App**
 
 Team Members List:
 
