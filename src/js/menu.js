@@ -219,6 +219,8 @@ function fetchNews(searchKeyword, pubDate) {
 
 function onHeaderFormClick(event) {
   event.preventDefault();
+  window.scrollTo(0, 0); //! перемецение в начало экрана
+  pagination.style.display = 'none'; //! скрыть пагинацию
   const searchKeyword = headerInput.value.trim();
 
   if (currentPage.includes('/index.html')) {
@@ -247,7 +249,7 @@ function onHeaderFormClick(event) {
             weatherCard.style.display = 'none';
             newsWrapper.innerHTML = '';
           } else {
-            pagination.style.display = 'block';
+            // pagination.style.display = 'block'; //! не нужна пагинация
             emptyPage.style.display = 'none';
             weatherCard.style.display = 'block';
             const articles = data.response.docs.slice(0, 9);
