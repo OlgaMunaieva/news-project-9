@@ -23,7 +23,7 @@ Page Favorite, saving/deleting favorite news from all pages of site - **Andrii S
 (Andrii-Semeniv)**\
 Page Read, save read news, filter read news by date - **Kiril Polozhenets
 (polokir)**\
-Footers on all pages - **Svitlana Dyshkant (SvitlanaDy)**\
+Footers on all, theme switcher - **Svitlana Dyshkant (SvitlanaDy)**\
 Pagination by home page (attempt) - **Viktoriia Melnyk (MelnykViktoriia)**\
 Pagination by home page (attempt) - **Roman Mudrak (Roman0410)**
 
