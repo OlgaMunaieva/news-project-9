@@ -13,7 +13,7 @@ News categories, search by category and by date, pagination by category - **Alex
 Vyzhymov (vyzhimov)**\
 Popup calendar, pagination in the calendar - **Vladyslav Starostyn
 (Vladyslav-Starostyn)**\
-Weather section, weather for the weak - **Alexander Shevchenko (AlexanderShevchenko112)**\
+Weather section, weather for the week - **Alexander Shevchenko (AlexanderShevchenko112)**\
 Popular news, news card, search by date - **Volodymyr Proniuk (vpronyuk)**\
 Block of news cards, filling the page with an empty response to a request (markup
 and styles) - **Kateryna Zaremska (UnaRumel)**\
